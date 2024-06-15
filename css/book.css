@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.form-inner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h3{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.nested-inner-form{
+    margin-right: 15px;
+}
+.form-outer-wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#fname, #phone, #where, #arrivals, #gmail, #loc, #quantity, #leave{
+    width: 450px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+input{
+    display: block;
+    margin-bottom: 0.08px;
+}
+.submit-button{
+    margin: 16px 16px;
+}

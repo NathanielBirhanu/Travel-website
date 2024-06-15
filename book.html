@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="outer-wrapper">
+        <header class="header-wrapper" >
+            <div class="inner-wrapper">
+                <div class="header-link-wrapper">
+                    <ul>
+                        <li id="travel-link"><a href="#">Travel</a></li>
+                        <li id="home-link"><a href="#">Home</a></li>
+                        <li id = "about-link"><a href="#">About</a></li>
+                        <li id="package-link"><a href="#">Packages</a></li>
+                        <li class="book-link"><a href="book_form.php">Book</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="form-outer-wrapper">
+                <div class="form-inner-wrapper">
+                    <div class="nested-inner-form">
+                        <form action="book_form.php" method="post">
+                            <div>
+                                <label for="fname">Full Name:</label><br>
+                                <input type="text" id="fname" name="name" placeholder="Enter your name" required><br>
+                                <label for="phone">Phone:</label><br>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
+                                <label for="where">Where to:</label><br>
+                                <input type="text" id="where" name="location" placeholder="Enter the place you want to visit" required><br>
+                                <label for="arrivals">Arrivals:</label><br>
+                                <input type="date" id="arrivals" name="arrivals" required>
+
+                                <label for="gmail">Email:</label><br>
+                                <input type="email" id="gmail" name="email" placeholder="Enter your email" required><br>
+                                <label for="loc">Address:</label><br>
+                                <input type="text" id="loc" name="address" placeholder="Enter your address" required><br>
+                                <label for="quantity">How many:</label><br>
+                                <input type="number" id="quantity" name="guests" placeholder="Enter the number of guests" required><br>
+                                <label for="leave">Leaving:</label><br>
+                                <input type="date" id="leave" name="leaving" required>
+                            </div>
+                            <input type="submit" name="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-wrapper">
+            <div class="inner-wrapper">
+                <div class="footer-link-wrapper">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Packages</a></li>
+                            <li><a class="book-link" href="#">Book</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Extra Links</h3>
+                        <ul>
+                            <li><a href="#">Need help?</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms of use</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact info</h3>
+                        <ul>
+                            <li><a href="">+251-930-468000</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact info</h3>
+                        <ul>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">instagram</a></li>
+                            <li><a href="#">twitter</a></li>
+                            <li><a href="#">linkedln</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </footer>  
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
